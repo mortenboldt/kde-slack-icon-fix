@@ -24,6 +24,8 @@ This is a personal taste so you can change how it looks, using a image manipulat
 
 >#### *After*
 >![screenshot_20190227_210359](https://user-images.githubusercontent.com/9460504/53522185-2801d100-3ada-11e9-9946-b00c61183d7b.png)
+>
+>![screenshot_20190227_220313](https://user-images.githubusercontent.com/9460504/53522812-7ebbda80-3adb-11e9-97f2-dcdbe82d885f.png)
 
 ### Implementation 
 Finally, the replacement of icons. There exists a shell script which replaces the old icons with the new ones included in this repo.
