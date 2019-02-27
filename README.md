@@ -1,4 +1,7 @@
-## Fix Slack's icon in Plasma's system tray:
+## Fix Slack's icon in Plasma's system tray: <img src="https://user-images.githubusercontent.com/9460504/53523339-da3a9800-3adc-11e9-82a9-0e66528d4e82.png" height="30"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30"> <img src="http://www.omgubuntu.co.uk/wp-content/uploads/2017/07/kde-plasma-logo.png" width="30">
+
+<img src="https://user-images.githubusercontent.com/9460504/53522999-ea9e4300-3adb-11e9-991f-41de972ede4b.png" width="30">
+
 1. Clone this repo. 
 `git clone`
 2. Navigating into the folder
