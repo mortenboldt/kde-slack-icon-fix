@@ -1,4 +1,4 @@
-## Fix Slack's icon in Plasma's system tray: <img src="https://user-images.githubusercontent.com/9460504/53523339-da3a9800-3adc-11e9-82a9-0e66528d4e82.png" height="30"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30"> <img src="http://www.omgubuntu.co.uk/wp-content/uploads/2017/07/kde-plasma-logo.png" width="30">
+## Fix Slack's icon in Plasma's system tray: <img src="https://user-images.githubusercontent.com/9460504/53523339-da3a9800-3adc-11e9-82a9-0e66528d4e82.png" height="30">  <img src="http://www.omgubuntu.co.uk/wp-content/uploads/2017/07/kde-plasma-logo.png" width="30">
 
 <img src="https://user-images.githubusercontent.com/9460504/53522999-ea9e4300-3adb-11e9-991f-41de972ede4b.png" width="30">
 
@@ -13,7 +13,7 @@ OR
 
 ### Problem statement
 
-On Plasma desktop environment, the system tray icon for Slack ([installed from AUR](https://aur.archlinux.org/packages/slack-desktop/)) has an issue with system tray icon. The size of it is too big as can be seen in the screenshot. I am using Arch Linux so this may be the case for other distributions as well.
+On Plasma desktop environment, the system tray icon for Slack has an issue with system tray icon. The size of it is too big as can be seen in the screenshot.
 
 >#### *Before*
 >![screenshot_20190227_204758](https://user-images.githubusercontent.com/9460504/53522128-0dc7f300-3ada-11e9-8f4b-cb78e12984fe.png)
@@ -23,7 +23,7 @@ This repository has the updated Slack icon with 3 possible states (red for highl
 
 ![screenshot_20190227_214017](https://user-images.githubusercontent.com/9460504/53522230-394add80-3ada-11e9-9bb5-5a435603f182.png)
 
-This is a personal taste so you can change how it looks, using a image manipulation program. (I used GIMP). There's also a 1600x1600 pixels PNG icon included for ease of editing ([downloaded from freebiesupply](https://freebiesupply.com/logos/new-slack-logo-2019/)). Remember to scale to what size you want. I scaled them to 22x22 pixels for my use case.
+This is a personal taste so you can change how it looks, using a image manipulation program. (I used GIMP). There's also a 1600x1600 pixels PNG icon included for ease of editing ([downloaded from freebiesupply](https://freebiesupply.com/logos/new-slack-logo-2019/)). Remember to scale to what size you want. I scaled them to 20x20 pixels for my use case.
 
 >#### *After*
 >![screenshot_20190227_210359](https://user-images.githubusercontent.com/9460504/53522185-2801d100-3ada-11e9-9946-b00c61183d7b.png)
@@ -37,7 +37,7 @@ All this script contains is this copy command.
 `sudo cp slack-taskbar-* /usr/lib/slack/resources/app.asar.unpacked/src/static/`
 
 ----
-**Note**: This issue does not exist when Slack was installed using [Flatpak](https://flathub.org/apps/details/com.slack.Slack). I prefer using AUR so this issue bugs me.
+**Note**: This issue does not exist when Slack was installed using [Flatpak](https://flathub.org/apps/details/com.slack.Slack).
 
 #### Credit 🏆:
 This was inspired form [lgodlewski's Medium article](https://medium.com/@l.godlewski/how-to-fix-slack-icon-in-kde-312383c331a9). It has the old Slack icon so I updated them with the new ones.
